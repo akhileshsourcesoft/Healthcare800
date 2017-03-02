@@ -1,0 +1,93 @@
+.seller-step h2{
+	font-family:'Cocktail_Script',Sans-Serif;
+	text-align:center;
+	font-size:38px;
+	color:#313130;
+	padding:20px 0 30px 0;
+	
+	}
+	
+.home-fact-form h2 { padding-top:0px; margin-top:0px; font-size:26px;}
+.form-bordr{ border-top:#ccc solid 1px; padding-top:25px; padding-bottom:25px; margin-top:10px}	
+.seller-thumb label{ color:#000; font-size:16px; display:block; font-weight:normal}
+.seller-thumb input { border:#cecece solid 1px; border-radius:5px; padding:5px; width:300px; height:40px; color:#ababab; margin-bottom:15px;}
+.date-rel{ position:relative; width:300px;height:40px;}
+.date-rel label{ position:absolute; right:8px; top:8px;}
+
+.date-rel2{ position:relative; width:100%;}
+.date-rel2 label{ position:absolute; right:8px; top:-7px;}
+
+.home-fact-form .bootstrap-select > .dropdown-toggle,
+.home-fact-form input, .home-fact-form textarea
+{ width:100%;border:1px solid #ccc;box-shadow:0 2px 2px #f4f4f4 inset, 0 0 0 #7fb9f1; padding:5px 8px; border-radius:0px;}
+.home-fact-form textarea{resize: none;}
+.home-fact-form label{ font-weight:normal; margin-top:14px;}
+.custom-drop { margin-top:15px;}
+.custom-drop .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{background:#fff !important; border:#fff solid 1px !important;}
+.custom-drop button { width:100%; text-align:left; padding:0; color:#2e75db; text-transform:uppercase; font-weight:bold; font-size:13px;}
+.custom-drop button span{ float:right; position:relative; top:-20px}
+ _:not(*:root), .custom-drop button span { top:0px; }
+.custom-drop .icon-dwn:after{content:url("../images/icn-dwn.png");}
+.custom-drop .icon-up:after{content:url("../images/icn-up.png");}
+.custom-drop .drop-chk{ padding:10px; width:100%}
+.custom-drop .drop-chk p{ font-size:12px; text-transform:uppercase; color:#999; margin-bottom:6px; font-weight:bold}
+.custom-drop .drop-chk span{ display:block; padding:3px 0}
+.custom-drop .filter-prp, .custom-drop .filter-prp2, .custom-drop .filter-prp3{ width:100%}
+.custom-drop .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
+ border:#fff solid 1px !important;}
+ 
+#btnAdd, .btnDel{ color:#0074e4;}
+#btnAdd:hover, .btnDel:hover{ color:#016bd2;}
+.home-fact-form small{ color:#9a9a9a; font-size:12px;}
+
+.multi-select-form .btn-default{ box-shadow:none !important; border-radius:3px !important
+; height:40px; border:#ccc solid 1px; width:100%; text-align:left}
+
+.multi-select-form .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
+ border:#ccc solid 1px !important;}
+ 
+ .multi-chk .btn-group{
+	 width:100%;
+	 }
+ .multi-chk .btn-group button .caret{ float:right; position:relative; top:-8px;
+}	
+ _:not(*:root), .multi-chk .btn-group button .caret { top:8px; }
+	 
+ .multi-chk .multiselect-container { background:#f1f2f3; padding:5px; width:100%}
+ 
+ .multi-chk  .multiselect-container > li{ float:left; width:50%; border-bottom:#fff solid 1px; border-right:#fff solid 1px;}
+  .multi-chk  .multiselect-container > li:nth-child(even){ border-right:0px;}
+  .multi-chk  .multiselect-container > li:last-child,
+  .multi-chk  .multiselect-container > li:nth-last-child(2)
+  { border-bottom:0px;}
+ .multi-chk  .multiselect-container > li > a > label{ padding:8px 17px 8px 14px}
+ 
+ .agreemnt-txt{ font-size:12px; color:#555; padding-bottom:15px;}
+ .agreemnt-txt a{ color:#0074e4; cursor:pointer}
+ .agreemnt-txt a:hover{ color:#016bd2;}
+ @media (max-width:991px){
+	 .media-padd { padding-left:0px}
+	 }
+
+@media (max-width:767px){
+	.seller-thumb .col-sm-5 img{ margin:auto}
+	.seller-price-dt{ text-align:center; margin-top:20px;}
+	.seller-price-dt .date-rel{ margin:auto}
+	.media-lt-nt{ padding-left:15px !important;}
+	.home-fact-form h2{ text-align:center}
+	.txt-align { text-align:center}
+	.multi-chk .btn-group{ margin-bottom:20px;}
+	}	 
+
+@media (max-width:593px){
+	.seller-step{ display:none}
+	.agreemnt-txt .icheckbox_polaris{ display:block; margin:auto}
+	}	
+	
+@media (max-width:400px){
+	.seller-thumb input, .date-rel{ width:272px;}
+	.multi-chk .multiselect-container > li > a > label
+	{font-size: 12px;
+    padding: 5px 0 5px 5px;}
+
+	}	

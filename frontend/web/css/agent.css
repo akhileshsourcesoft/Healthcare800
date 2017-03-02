@@ -1,0 +1,134 @@
+
+.agent-banner{padding:0 0 0 20px;}
+.agent-step{padding:30px 0 20px; border-bottom:#b9b9b9 solid 1px; }
+
+.agent-form{padding:0px}
+.agent-form h1{font-family:'Cocktail_Script',Sans-Serif; color:#000; font-size:50px; font-style:italic; margin-top:5px;}
+.agent-form p{ font-size:15px; color:#999797}
+
+.agent-tabs{ border-bottom:#c3c3c3 solid 1px;margin-right: 20px;}
+.agent-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background:#d94949;
+    border: 0 none;
+    color: #fff !important;}
+.agent-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{ cursor:default}
+.agent-tabs > li { float:left; margin-bottom:2px}
+.agent-tabs > li a {background:#fff; border: 0 none; border-radius: 0; color: #2b2b2b; font-size: 17px; margin-right: 27px;
+ opacity: 0.9; padding: 7px 0; text-align: center; width: 140px; }
+.agent-tabs > li a:hover {color:#000;}
+.agent-form .icon-user{background:url(../images/user-icn.png) no-repeat;}
+.agent-form .icon-mail{background:url(../images/mail-icn.png) no-repeat;  margin-top: 12px;}
+.agent-form .icon-card{background:url(../images/card-icn.png) no-repeat;  margin-top: 12px;}
+
+.agent-contnt{ margin-top:20px;}
+.agent-contnt input[type="text"]{ background:#f1f1f1; border:#bebebe solid 1px; height:42px; border-radius:5px; width:100%; margin-bottom:22px}
+.agent-inpt::-webkit-input-placeholder {color:#636262; font-size:15px; font-style:normal}
+.agent-inpt::-moz-placeholder {color:#636262; font-size:15px; font-style:normal}
+.agent-inpt:-ms-input-placeholder {color:#636262; font-size:15px; font-style:normal }
+.agent-contnt input[type="submit"] {
+  background: -webkit-linear-gradient(#0b618e, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0b618e, #0184c9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0b618e, #0184c9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(r#0b618e, #0184c9); /* Standard syntax */
+  padding:10px 30px;
+  border:0px;
+  border-radius:5px;
+  color:#fff;
+  font-size:16px;
+	}
+
+.agent-term{ text-align:right; padding-right:0px; padding-top: 12px;}
+.agent-term a{color:#5b5858; font-size:13px; }
+.agent-term a:hover{color:#000;}
+.m-steps{ display:none}
+
+/* ---------------- for input inside img------------*/	
+.left-inner-addon {position: relative;}
+.left-inner-addon input {padding-left: 55px;}
+.left-inner-addon i {position: absolute;margin-left: 20px; margin-top: 7px; padding: 16px 21px;}
+.right-inner-addon {position: relative;}
+.right-inner-addon input { padding-right: 30px;}
+.right-inner-addon i { position: absolute; right: 0px; padding: 10px 12px;}
+
+/* ---------------- for agent step 2------------*/
+
+.welcome-txt h1{
+	color: #000;
+    font-family: "Cocktail_Script",sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 5px;
+	text-align:center;
+	}
+.welcome-txt h1 span{ color:#d94949}
+.work-info{ margin-top:0px; width:65%}	
+.user-info{ margin-top:0px; width:45%}	
+.user-info label, .work-info label, .editor-info label{ font-size:16px; font-weight:normal; margin-bottom:12px; color:#000}
+.user-info .icon-upload{background:url(../images/upload-icn.png) no-repeat; margin-top: 12px !important;}
+
+.user-info .icon-video{background:url(../images/video-icn.png) no-repeat; margin-top: 10px !important;}
+
+.user-info small, .work-info small{ color:#a09d9d; font-size:16px}
+
+.work-info .icon-res{background:url(../images/resume-icn.png) no-repeat; margin-top: 8px !important;}
+.work-info .icon-card2{background:url(../images/card-icn.png) no-repeat; margin-top: 12px !important;}
+
+.work-info .icon-loc{background:url(../images/loc-icn.png) no-repeat; margin-top: 9px !important;}
+
+
+.personl-info h4{ font-size:28px; color:#424242; margin:0 0 15px 0; padding-left:14px}
+
+.inpt-pad{ padding-left:12px}
+.editor-info .ad-testi{ margin-top:10px;}
+.editor-info .ad-testi a{ color:#ce1919; font-size:13px; text-decoration:underline}
+.editor-info .ad-testi a:hover{ color:#a51515}
+.rad-top{margin-top:8px}
+/* ---------------- media queries------------*/
+ @media (max-width:1199px){
+	.agent-banner { margin-top: 20px;}
+	 }
+	
+ @media (max-width:991px){
+	 .agent-banner{ clear:left; padding:0 0 0 0px}
+	 .agent-banner img{ margin:auto}
+.agent-form .left-inner-addon{ float:left; margin-right:20px; width:47%;}
+	 .agent-tabs{ margin-right:0px}
+	 .agent-form h1{ text-align:center}
+	 .agent-form p{ text-align:center}
+	 .agent-term{ margin-bottom:20px;}
+	 .personl-info h4{ text-align:center}
+	 .personl-info .col-md-3 img{ margin:auto}
+	 .user-info, .work-info{width:100%; margin-top:20px;}
+	 }	 
+	 
+ @media (max-width:767px){
+	.accordion-xs .agent-tabs{ display:none} 
+	.agent-contnt .tab-pane{ margin-top:15px}
+	.agent-term{ text-align:center; clear:both}
+	.agent-banner{ clear:left; margin-left:15px; margin-right:15px;}
+	.editor-info label{ margin-top:15px;}
+	 }	 
+	 
+ @media (max-width:726px){
+	 .media-clr{ clear:left;}
+.agent-form .left-inner-addon{ width:100%}
+	 .agent-term {clear:none;text-align: right;}
+
+	 }
+	 
+ @media (max-width:593px){
+	 .agent-step{display:none}
+	 .m-steps{ display:block;margin-top:30px auto 0 auto; font-size:15px; color:#1f8ac2}
+	  .m-steps .disable-txt{ color:#adacac !important}
+	 .m-steps .m-st{ width:auto; margin-top:20px}
+	 .how-it-work h1{padding-bottom: 20px;}
+	 }	 	 
+	 
+ @media (max-width:400px){
+	 .agent-term {
+    clear: both;
+    text-align: center;
+    width: 100%;}
+.media-clr .Padd-lt-nt{ padding-left:0px; padding-right:0px; width:100%}
+.media-clr .Padd-lt-nt input[type="submit"]{width:100%;}
+	 }	 

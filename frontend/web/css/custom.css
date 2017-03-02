@@ -1,0 +1,136 @@
+.contact-forms{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.contact-forms h3{
+	font-size: 34px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.thanks-form{min-height:250px;}
+.btn-success {
+    background-color: #ff4530;
+    border-color: #ff4530;
+    color: #fff;
+}
+#searchTextbox li{
+	/*border-bottom: 1px dashed #cdcdcd;*/
+font-size: 15px;
+	padding: 10px;
+
+   
+   
+	
+}
+
+#searchTextbox > li:hover {
+  background: #4d4d4d !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+#setUserstate li {
+   border-bottom: 1px dashed #cdcdcd;
+	font-family: tahoma;
+	font-size: 15px;
+	padding: 10px;
+	margin-left: 62px;
+    margin-right: 62px;
+}
+#setUserstate > li:hover {
+  background: #d8452f !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+#qualification-other_qname{
+	margin-top: 26px;
+}
+.field-user-services_category_id{
+	margin-top: 1px;
+}
+.contact-providers-form{padding:40px 0 40px 0;}
+fieldset{border:1px solid #c0c0c0;padding:5px;}
+legend{border:1px solid #c0c0c0;border:none; width:10%;}
+.add_more, .remove_rows {
+	width: 100%;
+	text-align: right;
+	float: right;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	cursor: pointer;
+}
+.removeBtn > img{
+	margin-top: 31px;
+	width: 25px;
+	cursor:pointer;
+}
+.imagePreviewC {
+	width: 180px;
+	height: 100px;
+	background-position: center center;
+	background-size: cover;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+	background-color: #fff;
+	display: inline-block;
+}
+label.error{
+	color: red;
+	font-weight: normal;
+}
+.time_slot {
+	float:left;
+	width:100%;
+	height:350px;
+	overflow-y:scroll;
+}
+.time_slot > ul {
+  float:left;
+  width:100%;
+}
+.time_slot > ul > li {
+  float:left;
+  margin:5px;
+  width:19%;
+}
+.time_slot .timeTable{
+	float:left;
+	width:100%;
+}
+.time_slot .timeTable li {
+  background:#dfe9ee;
+  border-radius:5px;
+  float:left;
+  font-size:12px;
+  line-height:30px;
+  margin:3px;
+  padding:0;
+  text-align:center;
+  width: 44px;
+}
+
+.uncheckedTimeslot{
+	background-color:#dfe9ee;	
+}
+.checkedTimeslot_1, .checkedTimeslot_2, .checkedTimeslot_3, .checkedTimeslot_4, .checkedTimeslot_5, .checkedTimeslot_6, .checkedTimeslot_7{
+	background-color:red !important;
+	color:#fff;	
+}
+.time_slot li{
+	  display: inline-block;
+	  margin-bottom: 5px;
+	  padding:5px;
+	  cursor:pointer;
+	  background-color:#01c9de;
+}
+.time_slot li ul li{background-color:#da452f;}
+#expiry_date{padding:0px;}
+#cvv_images {
+    position: relative;
+}
+.securityCodeImages {
+  border: 1px solid #ccc;
+  bottom: -33px;
+  position: absolute;
+  right: 0;
+}
